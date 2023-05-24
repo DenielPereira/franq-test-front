@@ -1,35 +1,46 @@
-# franq-frontend
+# Teste Franq (front-end)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Sobre o Projeto
 
-## Recommended IDE Setup
+O projeto franq-frontend é uma aplicação que mostra as cotações de moedas atuais. Ele permite que os usuários acompanhem as cotações de várias moedas em tempo real. É uma ferramenta útil para investidores, viajantes e qualquer pessoa interessada em acompanhar as flutuações das moedas.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Configuração recomendada do IDE
 
-## Customize configuration
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (e desabilite o Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Personalização da configuração
 
-## Project Setup
+Consulte [Referência de Configuração do Vite](https://vitejs.dev/config/).
 
+## Setup do Projeto
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Criação do arquivo .env
+
+Crie um arquivo `.env` no diretório raiz do seu projeto e adicione a seguinte linha nele:
+```sh
+VITE_API_KEY=SUA_CHAVE_DA_API_AQUI
+```
+
+Certifique-se de substituir `SUA_CHAVE_DA_API_AQUI` pela sua chave de API real.
+
+### Compilar e Atualizar com Hot-Reload para Desenvolvimento
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compilar e Minificar para Produção
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Verificação de Estilo com [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
 ```
+
